@@ -1,0 +1,25 @@
+{
+  "name": "iplocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RagazziMoscow/iplocation.git"
+  },
+  "author": "zz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RagazziMoscow/iplocation/issues"
+  },
+  "homepage": "https://github.com/RagazziMoscow/iplocation#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-ejs": "^4.1.0",
+    "koa-logger": "^3.0.1",
+    "koa-router": "^7.2.1"
+  }
+}
