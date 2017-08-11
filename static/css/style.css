@@ -10,7 +10,7 @@ html {
 	font-size: 20px;
 }
 
-.location-data {
+.location-data, .data-action {
 	max-width: 350px;
 	width: 70%;
 	min-height: 300px;
@@ -25,7 +25,16 @@ html {
 
 }
 
-.location-data p {
+.data-action {
+	min-height: 100px;
+	margin-top: 250px;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+}
+
+.location-data p, .data-action p {
 	flex: auto;
 	flex-basis: 100%;
 	text-align: center;

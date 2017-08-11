@@ -1,0 +1,13 @@
+{
+  "name": "iplocation_info",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "zz"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/RagazziMoscow/iplocation",
+  "dependencies": {
+    "vue": "^2.4.2"
+  }
+}
