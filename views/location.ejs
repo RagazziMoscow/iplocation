@@ -1,0 +1,13 @@
+<div class="location-data">
+	<p class="location-data__ip">IP - Адрес: <span><%- data.ip %></span></p>
+	
+	<% if (data.ip != '127.0.0.1') { -%>	
+		<p class="location-data__country-code">Код страны: <span><%- data.country_code %></span></p>
+		<p class="location-data__country-name">Страна: <span><%- data.country_name %></span></p>
+		<p class="location-data__region">Регион: <span><%- data.region_name %></span></p>
+		<p class="location-data__city">Город: <span><%- data.city %></span></p>
+		<p class="location-data__postal-code">Почтовый код: <span><%- data.zip_code %></span></p>
+	<% } -%>
+
+
+</div>

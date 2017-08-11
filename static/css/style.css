@@ -1,0 +1,39 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+html {
+	background-color: aquamarine;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+}
+
+.location-data {
+	max-width: 350px;
+	width: 70%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 150px;
+	display: flex;
+	flex-direction: start;
+	align-items: center;
+	flex-wrap: wrap;
+	border: 3px solid #fff;
+	border-radius: 25px;
+
+}
+
+.location-data p {
+	flex: auto;
+	flex-basis: 100%;
+	text-align: center;
+	margin: 0;
+}
+
+@media (max-width: 430px) {
+	html {
+		font-size: 17px;
+	}
+}
