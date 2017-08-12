@@ -32,7 +32,7 @@ app.use(serve(__dirname + '/static'));
 app.use(router.routes());
 
 
-var port = process.env.PORT || 8000;
+let port = process.env.PORT || 8000;
 app.listen(port, ()=> {
 	console.log(chalk.yellow('Сервер работает на порту ' + port +'...'));
 });
